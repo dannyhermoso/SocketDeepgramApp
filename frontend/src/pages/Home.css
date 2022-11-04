@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+
+:root {
+    --background: #e0e5ec;
+    --gray: #797d7f;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }  
+
+body {
+    background-color: var(--background);
+    font-family: 'font-rajdhani';
+}
+
+.homePage {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background);
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -8px -8px 20px 0px #fff9, -6px -6px 6px 0px #fff9,
+    8px 8px 20px #0001, 5px 5px 6px 0px #0001;
+  color: var(--gray);
+  margin: 0 40px 0 40px;
+    font-size: 30px;
+    border: none;
+}
+
+
+button:active {
+    box-shadow: inset -8px -8px 20px #fff9, inset -5px -5px 6px #fff9,
+    inset 8px 8px 20px #0003, inset 5px 5px 6px #0001;
+    color: #5f6264;
+}
+
+h1 {
+    color: var(--gray);
+    text-shadow: 0px 1px 1px black;
+    font-size: 40px;
+    font-weight: 900;
+
+}
+
+.glassmorph {
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
+    display: flex;
+    margin: 0px auto;
+    width: 900px;
+    justify-content: center;
+    border-radius: 12px;
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
+    -9px -9px 16px rgba(255, 255, 255, 0.5);
+    margin-top: 60px;
+}
+
+.text-box {
+    font-size: 21px;
+}
+
+.buttonPost {
+  border-radius: 0;
+}
+
+.buttonBefore {
+  height: 200px;
+  border-radius: 0;
+  background-color: rgb(194, 67, 67);
+  color: black;
+}
